@@ -1,7 +1,3 @@
-# time-ago
-Calculate time ago JS native
-
-```javascript
 function timeAgo(date) {
   const now = new Date();
   const diff = date - now; // negative = past
@@ -23,5 +19,3 @@ function timeAgo(date) {
 
   return rtf.format(years, "year");
 }
-
-```
